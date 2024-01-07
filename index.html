@@ -661,7 +661,7 @@
           <!-- Поле для email -->
 
           <div class="label-comment-box">
-            <label class="label-comment" for="user-comment">Comment</label>
+            <label class="field-lable" for="user-comment">Comment</label>
 
             <textarea
               class="text-input"
@@ -672,21 +672,24 @@
             ></textarea>
           </div>
 
-          <label class="form-agreement">
-            <input
-              class="checkbox visually-hidden"
-              type="checkbox"
-              name="user-agreement"
-              value="false"
-            />
-            <span class="form-agreement-checkbox">
-              <svg class="form-agreement-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-Vector"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="form-agreement-link" href="">Privacy Policy</a>
-          </label>
+          <div class="form-checkbox">
+            <label for="user-privacy" class="form-agreement">
+              <input
+                class="checkbox visually-hidden"
+                type="checkbox"
+                name="user-privacy"
+                value="true"
+                id="user-privacy"
+              />
+              <span class="form-agreement-checkbox">
+                <svg class="form-agreement-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-agreement-link" href="">Privacy Policy</a>
+            </label>
+          </div>
 
           <div class="button-form">
             <button class="form-bth" type="submit">Send</button>
