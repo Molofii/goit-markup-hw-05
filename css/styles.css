@@ -666,6 +666,10 @@ img {
   padding: 72px 24px 24px;
 }
 
+.modal-form-box {
+  margin-bottom: 8px;
+}
+
 .modal-btn {
   position: absolute;
   top: 24px;
