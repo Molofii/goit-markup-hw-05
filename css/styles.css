@@ -726,7 +726,7 @@ img {
   margin-bottom: 4px;
 }
 
-.field-imput {
+.field-input {
   padding-left: 38px;
   width: 360px;
   height: 40px;
@@ -734,9 +734,9 @@ img {
   border-radius: 4px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
-  outline: transparent;
+  background-color: transparent;
 
-  transition: border-color 300ms ease-in;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .field-imput:focus {
@@ -753,7 +753,7 @@ img {
 
   stroke: #2e2f42 #4d5ae5;
 
-  transition: stroke 300ms ease-in;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .field-imput:focus + .field-icon {
