@@ -714,6 +714,7 @@ img {
 
 .model-wrapper {
   margin-bottom: 8px;
+  position: relative;
 }
 
 .field-lable {
@@ -723,10 +724,6 @@ img {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
-}
-
-.field {
-  position: relative;
 }
 
 .field-imput {
